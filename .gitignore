@@ -1,0 +1,24 @@
+# Ignore node_modules directories
+
+# Frontend
+frontend/node_modules/
+/frontend/.pnp
+
+/frontend/.pnp.js
+/frontend/build/
+/frontend/DS_Store
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+
+
+# Backend
+/backend/node_modules/
+/node_modules/
+/backend/shape_predictor_68_face_landmarks.dat/
+/shape_predictor_68_face_landmarks.dat/
+/backend/best2_xgboost_model.joblib/
+/google.json/
